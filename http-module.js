@@ -1,6 +1,8 @@
 const http = require('http');
 const fs = require('fs')
 
+
+// Create a server
 const server = http.createServer((req, res) => {
 
     // console.log(req.url);
